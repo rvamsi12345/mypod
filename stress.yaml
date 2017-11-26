@@ -1,0 +1,10 @@
+
+---
+apiversion: v1
+kind: pod
+spec:
+ containers:
+  -  name: stress-cpu1
+     image: vamsi12345/stress-ng
+  replicas: 2
+
